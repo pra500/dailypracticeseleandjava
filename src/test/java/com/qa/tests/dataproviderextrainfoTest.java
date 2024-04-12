@@ -17,6 +17,8 @@ public class dataproviderextrainfoTest {
 	
 	
 	
+	
+	
 	WebDriver driver;
 	
 	
@@ -38,10 +40,8 @@ public class dataproviderextrainfoTest {
   public void FuTest(String s, String s1) {
 	  
 	  
-	  driver.findElement(By.id("email1")).sendKeys(s);
-		
-	  driver.findElement(By.id("password1")).sendKeys(s1);  
-	  
+	  driver.findElement(By.id("email1")).sendKeys(s);		
+	  driver.findElement(By.id("password1")).sendKeys(s1);	  
 	  driver.findElement(By.xpath("//button[@type='submit']")).click();
   }
   

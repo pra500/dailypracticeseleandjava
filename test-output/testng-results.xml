@@ -1,57 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-06T14:07:52 IST" name="Default suite" finished-at="2024-04-06T14:07:59 IST" duration-ms="7179">
+  <suite started-at="2024-04-12T13:31:12 IST" name="Default suite" finished-at="2024-04-12T13:31:33 IST" duration-ms="20536">
     <groups>
     </groups>
-    <test started-at="2024-04-06T14:07:52 IST" name="Default test" finished-at="2024-04-06T14:07:59 IST" duration-ms="7179">
-      <class name="com.qa.tests.dataproviderextrainfoTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.dataproviderextrainfoTest@7ceb3185]" started-at="2024-04-06T14:07:52 IST" name="beforeClass" finished-at="2024-04-06T14:07:57 IST" duration-ms="5214" status="PASS">
+    <test started-at="2024-04-12T13:31:12 IST" name="Default test" finished-at="2024-04-12T13:31:33 IST" duration-ms="20536">
+      <class name="alwayspracticehere.dataproviderttTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:alwayspracticehere.dataproviderttTest@41294f8]" started-at="2024-04-12T13:31:12 IST" name="beforeClass" finished-at="2024-04-12T13:31:32 IST" duration-ms="19371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="FuTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.dataproviderextrainfoTest@7ceb3185]" started-at="2024-04-06T14:07:57 IST" name="FuTest" data-provider="kTest" finished-at="2024-04-06T14:07:58 IST" duration-ms="943" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[prga]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[prga78@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="fTest()[pri:0, instance:alwayspracticehere.dataproviderttTest@41294f8]" started-at="2024-04-12T13:31:32 IST" name="fTest" description="jjjjjjjjjjj" finished-at="2024-04-12T13:31:32 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FuTest -->
-        <test-method signature="FuTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.dataproviderextrainfoTest@7ceb3185]" started-at="2024-04-06T14:07:59 IST" name="FuTest" data-provider="kTest" finished-at="2024-04-06T14:07:59 IST" duration-ms="418" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[subn]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[subn@123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FuTest -->
-        <test-method signature="FtTest()[pri:1, instance:com.qa.tests.dataproviderextrainfoTest@7ceb3185]" started-at="2024-04-06T14:07:59 IST" name="FtTest" finished-at="2024-04-06T14:07:59 IST" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FtTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.dataproviderextrainfoTest@7ceb3185]" started-at="2024-04-06T14:07:59 IST" name="afterClass" finished-at="2024-04-06T14:07:59 IST" duration-ms="249" status="PASS">
+        </test-method> <!-- fTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:alwayspracticehere.dataproviderttTest@41294f8]" started-at="2024-04-12T13:31:33 IST" name="afterClass" finished-at="2024-04-12T13:31:33 IST" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.qa.tests.dataproviderextrainfoTest -->
+      </class> <!-- alwayspracticehere.dataproviderttTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

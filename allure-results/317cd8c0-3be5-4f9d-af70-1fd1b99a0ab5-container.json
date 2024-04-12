@@ -1,0 +1,1 @@
+{"uuid":"317cd8c0-3be5-4f9d-af70-1fd1b99a0ab5","name":"alwayspracticehere.parallel2222Test","children":["4e956dd5-4c90-4bf9-b05d-c4951ee71080"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1712809307214,"stop":1712809316672}],"afters":[],"start":1712809307136,"stop":1712809317138}
