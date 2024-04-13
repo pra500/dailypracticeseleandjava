@@ -5,6 +5,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 
 public class NewparallelTest {
+	
+	
+
   @Test
   public void f() {
   }
@@ -15,5 +18,7 @@ public class NewparallelTest {
   @AfterClass
   public void afterClass() {
   }
+  
+  
 
 }
