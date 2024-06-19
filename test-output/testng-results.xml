@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-12T13:31:12 IST" name="Default suite" finished-at="2024-04-12T13:31:33 IST" duration-ms="20536">
+  <suite started-at="2024-06-19T12:26:53 IST" name="Default suite" finished-at="2024-06-19T12:27:03 IST" duration-ms="9995">
     <groups>
     </groups>
-    <test started-at="2024-04-12T13:31:12 IST" name="Default test" finished-at="2024-04-12T13:31:33 IST" duration-ms="20536">
-      <class name="alwayspracticehere.dataproviderttTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:alwayspracticehere.dataproviderttTest@41294f8]" started-at="2024-04-12T13:31:12 IST" name="beforeClass" finished-at="2024-04-12T13:31:32 IST" duration-ms="19371" status="PASS">
+    <test started-at="2024-06-19T12:26:53 IST" name="Default test" finished-at="2024-06-19T12:27:03 IST" duration-ms="9995">
+      <class name="com.qa.tests.MakemytripTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.MakemytripTest@3148f668]" started-at="2024-06-19T12:26:53 IST" name="beforeClass" finished-at="2024-06-19T12:27:00 IST" duration-ms="7219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="fTest()[pri:0, instance:alwayspracticehere.dataproviderttTest@41294f8]" started-at="2024-04-12T13:31:32 IST" name="fTest" description="jjjjjjjjjjj" finished-at="2024-04-12T13:31:32 IST" duration-ms="179" status="PASS">
+        <test-method signature="fTest()[pri:0, instance:com.qa.tests.MakemytripTest@3148f668]" started-at="2024-06-19T12:27:00 IST" name="fTest" finished-at="2024-06-19T12:27:03 IST" duration-ms="2140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:alwayspracticehere.dataproviderttTest@41294f8]" started-at="2024-04-12T13:31:33 IST" name="afterClass" finished-at="2024-04-12T13:31:33 IST" duration-ms="376" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.MakemytripTest@3148f668]" started-at="2024-06-19T12:27:03 IST" name="afterClass" finished-at="2024-06-19T12:27:03 IST" duration-ms="357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- alwayspracticehere.dataproviderttTest -->
+      </class> <!-- com.qa.tests.MakemytripTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

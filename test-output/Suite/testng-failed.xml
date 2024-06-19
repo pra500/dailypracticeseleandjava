@@ -2,19 +2,33 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="sanity"/>
-      </run>
-    </groups>
     <classes>
-      <class name="com.qa.tests.TrickyquestionsinterviewTest">
+      <class name="onlyfailedtcexecute.New2Test">
         <methods>
-          <include name="agii"/>
-          <include name="ag"/>
-          <include name="agi"/>
+          <include name="fkkllTest"/>
+          <include name="f8Test"/>
+          <include name="fTest"/>
+          <include name="fkklliTest"/>
+          <include name="f0Test"/>
         </methods>
-      </class> <!-- com.qa.tests.TrickyquestionsinterviewTest -->
+      </class> <!-- onlyfailedtcexecute.New2Test -->
+      <class name="onlyfailedtcexecute.New1Test">
+        <methods>
+          <include name="fkkllTest"/>
+          <include name="f8Test"/>
+          <include name="fTest"/>
+          <include name="f0Test"/>
+        </methods>
+      </class> <!-- onlyfailedtcexecute.New1Test -->
+      <class name="onlyfailedtcexecute.New3Test">
+        <methods>
+          <include name="fTest"/>
+          <include name="f8Test"/>
+          <include name="fkkllyyTest"/>
+          <include name="fkkllTest"/>
+          <include name="f0Test"/>
+        </methods>
+      </class> <!-- onlyfailedtcexecute.New3Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

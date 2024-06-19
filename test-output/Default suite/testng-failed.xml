@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.TrickyquestionsinterviewTest">
+      <class name="com.qa.tests.ShadowDOMTest">
         <methods>
+          <include name="beforeClass"/>
           <include name="afterClass"/>
           <include name="fTest"/>
-          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.qa.tests.TrickyquestionsinterviewTest -->
+      </class> <!-- com.qa.tests.ShadowDOMTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

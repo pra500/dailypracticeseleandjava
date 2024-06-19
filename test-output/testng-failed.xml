@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="sanity"/>
-      </run>
-    </groups>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.TrickyquestionsinterviewTest">
+      <class name="com.qa.tests.ShadowDOMTest">
         <methods>
-          <include name="agii"/>
-          <include name="ag"/>
-          <include name="agi"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="fTest"/>
         </methods>
-      </class> <!-- com.qa.tests.TrickyquestionsinterviewTest -->
+      </class> <!-- com.qa.tests.ShadowDOMTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

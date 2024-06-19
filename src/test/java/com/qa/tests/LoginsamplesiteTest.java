@@ -1,4 +1,4 @@
-package com.qa.tests;
+	package com.qa.tests;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
