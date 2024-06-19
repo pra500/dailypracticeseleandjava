@@ -43,6 +43,8 @@ public class CartTest {
   public void afterClass() {
 	  
 	  driver.close();
+	  
   }
 
+  //**************
 }
