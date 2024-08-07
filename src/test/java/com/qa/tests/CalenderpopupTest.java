@@ -11,19 +11,27 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class CalenderpopupTest {
+public class CalenderpopupTest {	
+	
 	
 	
 	
 	
 	WebDriver driver;
+	
+	
+	
 		
   @Test
-  public void fTest() {
+  public void fTest() {	  
+	   	  
+	  
 	  
 	  
 	  String title=driver.getTitle();
 	  Assert.assertEquals(title, "Book Bus Tickets Online, Easy & Secure Booking, Top Operators - redBus");
+	  
+	  
 	  
   }
   @BeforeClass

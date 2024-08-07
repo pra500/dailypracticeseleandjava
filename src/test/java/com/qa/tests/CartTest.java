@@ -14,8 +14,6 @@ public class CartTest {
 	
 	
 	
-	
-	
 	WebDriver driver;
 	
   @Test
@@ -43,7 +41,7 @@ public class CartTest {
   public void afterClass() {
 	  
 	  driver.close();
-	  
+	  	  
   }
 
   //**************

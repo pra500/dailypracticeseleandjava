@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.ShadowDOMTest">
+      <class name="com.qa.tests.NoofframesTest">
         <methods>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="fTest"/>
+          <include name="fkTest"/>
+          <include name="flllTest"/>
         </methods>
-      </class> <!-- com.qa.tests.ShadowDOMTest -->
+      </class> <!-- com.qa.tests.NoofframesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

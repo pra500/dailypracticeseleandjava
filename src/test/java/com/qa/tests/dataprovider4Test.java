@@ -11,9 +11,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 
-public class dataprovider4Test {
+public class dataprovider4Test {	
 	
-	
+		
 
 	WebDriver driver;
 	
@@ -26,8 +26,8 @@ public class dataprovider4Test {
 	
 	  driver.findElement(By.id("password1")).sendKeys(s1);  
 	  
-	  driver.findElement(By.xpath("//button[@type='submit']")).click();
-	   
+	  driver.findElement(By.xpath("//button[@type='submit']")).click();	  	  
+	  
 	  
 	  
   }
@@ -46,8 +46,7 @@ public class dataprovider4Test {
  b[1][0] = "gupta";
  b[1][1] = "pra55@56";
  
- return b;
- 	 
+ return b; 	 
 	  
   }
   
