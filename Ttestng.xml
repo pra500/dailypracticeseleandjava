@@ -4,9 +4,15 @@
 	
 	
 	
+	<listeners>			
+		
+		<listener class-name="iiiii.Liste3"></listener>			
+		
+	</listeners>
+	
 	
   <test name="Test1">
-	  <parameter name="brow" value="chrome"></parameter>
+	
     <classes>
       <class name="com.qa.tests.TTest"/>
     </classes>

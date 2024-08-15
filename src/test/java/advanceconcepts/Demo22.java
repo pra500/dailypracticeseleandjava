@@ -28,7 +28,7 @@ public class Demo22 {
 	s2=s2+s4+" ";
 	   }
 	   
-	
+	   	
 	
 	
 	System.out.println(s2);

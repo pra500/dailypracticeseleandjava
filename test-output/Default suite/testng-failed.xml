@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="alwayspracticehere.New75Test">
+      <class name="com.qa.tests.SelectTest">
         <methods>
           <include name="beforeClass"/>
           <include name="fTest"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- alwayspracticehere.New75Test -->
+      </class> <!-- com.qa.tests.SelectTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

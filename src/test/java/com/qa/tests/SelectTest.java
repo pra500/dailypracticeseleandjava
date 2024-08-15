@@ -3,6 +3,7 @@ package com.qa.tests;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -35,6 +36,8 @@ public class SelectTest {
 	  
   }
   
+  
+  
   @Test
   public void fkTest() {
 	
@@ -52,23 +55,24 @@ public class SelectTest {
 	  	
 	  
   }
+   
   
- 
- 
- 
- 
   @BeforeClass
   public void beforeClass() {
-
-	    driver=new ChromeDriver();		
-		driver.manage().window().maximize();
+	  
+	   driver=new ChromeDriver();	  
+	    driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-		//driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-		
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));		
 		driver.get("https://naveenautomationlabs.com/opencart/");
+		
+		
+		
   }
+ 
+ 
+ 
 
   @AfterClass
   public void afterClass() {
