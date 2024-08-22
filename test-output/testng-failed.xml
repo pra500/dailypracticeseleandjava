@@ -3,13 +3,32 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.SelectTest">
+      <class name="debuggingprac.NewTest">
         <methods>
-          <include name="beforeClass"/>
-          <include name="fTest"/>
+          <include name="feeeeTest"/>
+          <include name="fwwTest"/>
+          <include name="faqq1111Test"/>
+          <include name="feTest"/>
+          <include name="f005tyTest"/>
+          <include name="f444Test"/>
           <include name="afterClass"/>
+          <include name="fTest"/>
+          <include name="fqqqq55Test"/>
+          <include name="feeTest"/>
+          <include name="fqTest"/>
+          <include name="fqqTest"/>
+          <include name="beforeClass"/>
+          <include name="fqq224Test"/>
+          <include name="fqqqqqTest"/>
+          <include name="f666Test"/>
+          <include name="f333Test"/>
+          <include name="feeeeeTest"/>
+          <include name="feeeTest"/>
+          <include name="fwwwwTest"/>
+          <include name="fww333Test"/>
+          <include name="f33ghTest"/>
         </methods>
-      </class> <!-- com.qa.tests.SelectTest -->
+      </class> <!-- debuggingprac.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
