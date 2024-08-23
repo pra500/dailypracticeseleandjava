@@ -27,7 +27,7 @@ public class NewyyyTest {
   }
   
   @Test
-  public void fTest() {
+  public void frTest() {
 	  
 	  driver=new ChromeDriver();	  
 	    driver.manage().window().maximize();

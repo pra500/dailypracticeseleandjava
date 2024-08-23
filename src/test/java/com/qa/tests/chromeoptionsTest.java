@@ -14,7 +14,7 @@ public class chromeoptionsTest {
 			
 	WebDriver driver;
 	
-		
+	
   @Test
   public void fTest() {
 	  
@@ -37,6 +37,30 @@ public class chromeoptionsTest {
 	  
   }
   
+  
+  @Test
+  public void fkk12Test() {
+	  
+	  System.out.println(driver.getTitle());
+	
+	  
+  }
+  
+  @Test
+  public void fkk13Test() {
+	  
+	 	 System.out.println(driver.getTitle());
+	  
+  }
+  
+  @Test
+  public void fkk14Test() {
+	  
+	 	 System.out.println(driver.getWindowHandle());
+	 	 
+	  
+  }
+  
   @BeforeClass
   public void beforeClass() {
 
@@ -51,7 +75,8 @@ public class chromeoptionsTest {
   @AfterClass
   public void afterClass() {
 	  
-	  driver.close();
+	  driver.quit();
+	  
   }
 
 }

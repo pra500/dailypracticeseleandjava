@@ -37,7 +37,57 @@ public class NewTest {
 	  Assert.assertEquals(url, "https://naveenautomationlabs.com/opencart/");
 	  
 	  
+	 
+  }
+  
+
+  @Test(priority = 1)
+  public void fu21Test() {
 	  
+	  //https://www.globalsqa.com/demo-site/select-dropdown-menu/
+		  
+		  
+  }
+
+  @Test(priority = 1)
+  public void fu22Test() {
+	  
+	  String url=driver.getCurrentUrl();
+	  Assert.assertEquals(url, "https://naveenautomationlabs.com/opencart/");
+	  
+	  
+	  https://www.globalsqa.com/demo-site/select-dropdown-menu/
+  }
+  
+
+  @Test(priority = 1)
+  public void fu3Test() {
+	  
+	  String url=driver.getCurrentUrl();
+	  Assert.assertEquals(url, "https://naveenautomationlabs.com/opencart/");
+	  
+	  
+	 
+  }
+
+  @Test(priority = 1)
+  public void fu4Test() {
+	  
+	  String url=driver.getCurrentUrl();
+	  Assert.assertEquals(url, "https://naveenautomationlabs.com/opencart/");
+	  
+	  
+	
+  }
+
+  @Test(priority = 1)
+  public void fu5Test() {
+	  
+	  String url=driver.getCurrentUrl();
+	  Assert.assertEquals(url, "https://naveenautomationlabs.com/opencart/");
+	  
+	  
+	 
   }
   @BeforeClass
   public void beforeClass() {
