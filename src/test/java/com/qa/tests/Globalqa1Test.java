@@ -3,6 +3,7 @@ package com.qa.tests;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -24,13 +25,13 @@ public class Globalqa1Test {
 	  }
   @BeforeClass
   public void beforeClass() {
-	  
+	  	
 	  
 	    driver=new ChromeDriver();		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(4000));				
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4000));
 		driver.get("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
   }
 

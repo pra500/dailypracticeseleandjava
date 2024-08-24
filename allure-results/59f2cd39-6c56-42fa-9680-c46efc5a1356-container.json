@@ -1,0 +1,1 @@
+{"uuid":"59f2cd39-6c56-42fa-9680-c46efc5a1356","name":"iiiiii.NewTest.setup","children":["0a50bd5b-43aa-4f63-acc4-ae66d1db146f"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1724409760855,"stop":1724409765877}],"afters":[],"start":1724409760855,"stop":1724409765877}

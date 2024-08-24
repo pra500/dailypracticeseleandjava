@@ -22,12 +22,8 @@ public class CalendarTest {
 	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
 	  	  
 	  
-	//input[@id='first_date_picker']		  
-	  
-	  
-	  
-	  
-	 
+	//input[@id='first_date_picker']	  	  
+	  	   
 	 
   }
   @BeforeClass

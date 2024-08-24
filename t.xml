@@ -6,4 +6,17 @@
       <class name="iiiiii.NewTest"/>
     </classes>
   </test> <!-- Test -->
+  
+   <test name="Test1">
+    <classes>
+      <class name="iiiiii.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Test2">
+    <classes>
+      <class name="iiiiii.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
