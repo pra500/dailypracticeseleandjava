@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-24T10:06:22 IST" name="Default suite" finished-at="2024-08-24T10:06:32 IST" duration-ms="10436">
+  <suite started-at="2024-08-27T11:42:12 IST" name="Default suite" finished-at="2024-08-27T11:42:26 IST" duration-ms="13889">
     <groups>
     </groups>
-    <test started-at="2024-08-24T10:06:22 IST" name="Default test" finished-at="2024-08-24T10:06:32 IST" duration-ms="10436">
-      <class name="com.qa.tests.Newd333333Test">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.Newd333333Test@3148f668]" started-at="2024-08-24T10:06:22 IST" name="beforeClass" finished-at="2024-08-24T10:06:31 IST" duration-ms="9341" status="PASS">
+    <test started-at="2024-08-27T11:42:12 IST" name="Default test" finished-at="2024-08-27T11:42:26 IST" duration-ms="13889">
+      <class name="com.qa.tests.NewttTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.NewttTest@3148f668]" started-at="2024-08-27T11:42:12 IST" name="beforeClass" finished-at="2024-08-27T11:42:25 IST" duration-ms="12762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="fTest()[pri:0, instance:com.qa.tests.Newd333333Test@3148f668]" started-at="2024-08-24T10:06:31 IST" name="fTest" finished-at="2024-08-24T10:06:32 IST" duration-ms="255" status="PASS">
+        <test-method signature="fTest()[pri:0, instance:com.qa.tests.NewttTest@3148f668]" started-at="2024-08-27T11:42:25 IST" name="fTest" finished-at="2024-08-27T11:42:25 IST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.Newd333333Test@3148f668]" started-at="2024-08-24T10:06:32 IST" name="afterClass" finished-at="2024-08-24T10:06:32 IST" duration-ms="523" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.NewttTest@3148f668]" started-at="2024-08-27T11:42:25 IST" name="afterClass" finished-at="2024-08-27T11:42:26 IST" duration-ms="663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.qa.tests.Newd333333Test -->
+      </class> <!-- com.qa.tests.NewttTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
