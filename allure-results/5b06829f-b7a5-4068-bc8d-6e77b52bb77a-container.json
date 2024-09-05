@@ -1,0 +1,1 @@
+{"uuid":"5b06829f-b7a5-4068-bc8d-6e77b52bb77a","name":"ooo.GlobalSQTest.setup","children":["4c6e2b87-c596-47d4-854e-457aedffc4ec"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1724929047517,"stop":1724929054230}],"afters":[],"start":1724929047517,"stop":1724929054230}

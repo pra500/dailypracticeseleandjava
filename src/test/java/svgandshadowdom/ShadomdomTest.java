@@ -14,7 +14,8 @@ import org.testng.annotations.Test;
 public class ShadomdomTest {
 	
 	
-	WebDriver driver;
+	WebDriver driver;		
+	
 	
   @Test
   public void getTest() {

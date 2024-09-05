@@ -20,9 +20,7 @@ public class AccountTest {
 	
 	
   @Test
-  public void getTest() {
-	  
-	  
+  public void getTest() {   
 	  
 	  
 	 

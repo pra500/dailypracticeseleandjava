@@ -17,9 +17,9 @@ public class CartTest {
 	WebDriver driver;
 	
   @Test
-  public void fTest() {
+  public void fTest() {	  
 	  
-	
+	  
 	  driver.findElement(By.xpath("//span[normalize-space()='Shopping Cart']")).click();
 	  
 	  driver.findElement(By.xpath("//h1[normalize-space()='Shopping Cart']")).click();

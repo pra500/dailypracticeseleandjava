@@ -3,7 +3,7 @@ package alwayspracticehere;
 public class string1 {
 	
 	public static void main(String[] args) {
-		
+		/*
 		String str="java is easy";
 		
 		String[] arr=str.split(" ");
@@ -18,8 +18,21 @@ public class string1 {
 			
 		}
 		System.out.println(sb.toString().trim());
+		*/
 		
 		
+		
+		
+		String str="pragti";
+
+		String[] arr=str.split("a");
+
+						
+		for(String s:arr)
+		{
+			System.out.println(s);
+		}
+				
 	}
 
 }

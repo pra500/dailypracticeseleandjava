@@ -1,0 +1,1 @@
+{"uuid":"20006842-1e3f-46b0-9b9e-7fdb1e30ea90","name":"ooo.GlobalSQTest.teardown","children":["f095375e-a0fb-4d5b-bb9d-77a819061d8e"],"description":"","befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1724925975296,"stop":1724925975978}],"start":1724925975289,"stop":1724925975978}

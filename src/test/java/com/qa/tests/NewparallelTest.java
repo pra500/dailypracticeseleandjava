@@ -9,7 +9,7 @@ public class NewparallelTest {
 	
 
   @Test
-  public void f() {
+  public void fTest() {
   }
   @BeforeClass
   public void beforeClass() {

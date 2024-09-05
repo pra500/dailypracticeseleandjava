@@ -1,0 +1,1 @@
+{"uuid":"0f006a6f-df45-463c-9769-4fea10d491a2","name":"com.qa.tests.DevdukesTest.setup","children":["1e1346eb-993d-493c-93c9-593f64a5c061"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1724848434790,"stop":1724848473354}],"afters":[],"start":1724848434788,"stop":1724848473357}
