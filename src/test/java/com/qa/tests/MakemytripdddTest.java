@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 
-public class MakemytripTest {
+public class MakemytripdddTest {
 	
 	
 	WebDriver driver;
@@ -18,7 +18,19 @@ public class MakemytripTest {
   public void fTest() {
 	  
 	  
-	  System.out.println( driver.getTitle());
+	  System.out.println(driver.getTitle());
+	 
+  }
+  
+  
+	
+  @Test
+  public void getURLTest() {
+	  
+	  
+	String url=driver.getCurrentUrl();
+	
+	System.out.println(url);
 	 
   }
   @BeforeClass
