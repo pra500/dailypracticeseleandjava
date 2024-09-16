@@ -38,7 +38,6 @@ public class NewTest {
 	Assert.assertTrue(false);
   }
   
-
   
 
 	//pass

@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-05T12:05:57 IST" name="Default suite" finished-at="2024-09-05T12:06:10 IST" duration-ms="12999">
+  <suite started-at="2024-09-16T16:31:48 IST" name="Default suite" finished-at="2024-09-16T16:31:54 IST" duration-ms="6065">
     <groups>
     </groups>
-    <test started-at="2024-09-05T12:05:57 IST" name="Default test" finished-at="2024-09-05T12:06:10 IST" duration-ms="12999">
-      <class name="alwayspracticehere.ScrollIntoView1Test">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:alwayspracticehere.ScrollIntoView1Test@7c214cc0]" started-at="2024-09-05T12:05:57 IST" name="beforeClass" finished-at="2024-09-05T12:06:07 IST" duration-ms="10243" status="PASS">
+    <test started-at="2024-09-16T16:31:48 IST" name="Default test" finished-at="2024-09-16T16:31:54 IST" duration-ms="6065">
+      <class name="alwayspracticehere.CookiesalloperationsTest">
+        <test-method signature="fTest()[pri:0, instance:alwayspracticehere.CookiesalloperationsTest@14f9390f]" started-at="2024-09-16T16:31:48 IST" name="fTest" finished-at="2024-09-16T16:31:54 IST" duration-ms="5864" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="fiiTest()[pri:0, instance:alwayspracticehere.ScrollIntoView1Test@7c214cc0]" started-at="2024-09-05T12:06:07 IST" name="fiiTest" finished-at="2024-09-05T12:06:09 IST" duration-ms="1659" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fiiTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:alwayspracticehere.ScrollIntoView1Test@7c214cc0]" started-at="2024-09-05T12:06:09 IST" name="afterClass" finished-at="2024-09-05T12:06:10 IST" duration-ms="851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- alwayspracticehere.ScrollIntoView1Test -->
+        </test-method> <!-- fTest -->
+      </class> <!-- alwayspracticehere.CookiesalloperationsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

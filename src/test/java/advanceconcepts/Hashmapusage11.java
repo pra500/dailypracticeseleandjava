@@ -90,8 +90,7 @@ public class Hashmapusage11 {
 		 
 	  }
 
-	  
-	  
+	  	  
 
 	  public static String credsdata(String a)
 	  {
@@ -99,6 +98,7 @@ public class Hashmapusage11 {
 		return  s.split(":")[0];
 		 
 	  }
+	  
 	  
 	  
 	  

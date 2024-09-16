@@ -13,8 +13,7 @@ public class javascriTest {
 	
   @Test
   public void fTest() {
-	  
-	  
+	  	  
 	  
 	  driver=new ChromeDriver();
 	  driver.manage().window().maximize();

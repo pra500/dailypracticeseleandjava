@@ -37,16 +37,22 @@ WebElement wb= driver.findElement(By.xpath("//button[@id='submit']"));
 	  
 
 	  //act.sendKeys(wb, Keys.CONTROL, Keys.SHIFT, Keys.ALT, Keys.END, "s").perform();	  
-  }
+	  
+	  
+  } 
   
-	
   
   
- 
+  
+  
+  
+      
+  
+  
+  
   
   @BeforeClass
-  public void beforeClass() {
-	  
+  public void beforeClass() {	  
 	  
 	    driver=new ChromeDriver();		
 		driver.manage().window().maximize();

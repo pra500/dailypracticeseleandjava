@@ -14,9 +14,10 @@ public class Clickmultiways111Test {
 	
   @Test
   public void fTest() throws InterruptedException {  	  
-	    	
+	   
 	  
 	    
+	  
 	  
 	  driver=new ChromeDriver();
 	  driver.manage().window().maximize();

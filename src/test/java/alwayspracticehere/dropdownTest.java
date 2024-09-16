@@ -4,9 +4,11 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,7 +20,7 @@ public class dropdownTest {
 	WebDriver driver;
 	
 	
-  @Test
+  //@Test
   public void fTest() {
 	  
 	   WebElement wb=driver.findElement(By.xpath("//select[@id='dropdown-class-example']"));
@@ -32,7 +34,7 @@ public class dropdownTest {
   }
   
 	
-  @Test
+  //@Test
   public void fjTest() {
 	   WebElement wb=driver.findElement(By.xpath("//select[@id='dropdown-class-example']"));
 		  
@@ -93,6 +95,15 @@ public class dropdownTest {
   public void fjl5Test() {
 	  
 	  
+	  Set<Cookie> set1= driver.manage().getCookies();
+	  
+	  System.out.println(set1.size());
+	 
+			   
+	  
+	  
+	 
+	  
   }
 			   
 	
@@ -111,6 +122,8 @@ public class dropdownTest {
 
   @AfterClass
   public void afterClass() {
+	  
+	  driver.close();
 	  
   }
 
