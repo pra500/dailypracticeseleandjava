@@ -21,9 +21,11 @@ public class MakemytripdddTest {
 	  System.out.println(driver.getTitle());
 	 
   }
-  
-  
+
+
+
 	
+//getting URL of the page here:	
   @Test
   public void getURLTest() {
 	  
