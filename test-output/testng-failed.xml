@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="alwayspracticehere.BrokenlinksaaaaTest">
+      <class name="dynamictable.Dytable1Test">
         <methods>
-          <include name="afterClass"/>
-          <include name="brokenlinksTest"/>
           <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="fTest"/>
         </methods>
-      </class> <!-- alwayspracticehere.BrokenlinksaaaaTest -->
+      </class> <!-- dynamictable.Dytable1Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
