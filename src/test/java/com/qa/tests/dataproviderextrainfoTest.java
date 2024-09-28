@@ -18,12 +18,9 @@ public class dataproviderextrainfoTest {
 	
 	
 	
-	
 	WebDriver driver;
 	
-	
-	
-  
+	  
   
   
 	

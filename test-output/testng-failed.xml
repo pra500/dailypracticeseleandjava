@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dynamictable.Dytable1Test">
+      <class name="com.qa.tests.ChromeoptionsssssssTest">
         <methods>
-          <include name="beforeClass"/>
           <include name="afterClass"/>
           <include name="fTest"/>
+          <include name="flTest"/>
+          <include name="beforeClass"/>
+          <include name="fkkTest"/>
         </methods>
-      </class> <!-- dynamictable.Dytable1Test -->
+      </class> <!-- com.qa.tests.ChromeoptionsssssssTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

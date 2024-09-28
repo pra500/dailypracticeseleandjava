@@ -1,6 +1,8 @@
 package alwayspracticehere;
 
 import org.testng.annotations.Test;
+
+import java.util.*;
 import org.testng.annotations.BeforeClass;
 
 import java.io.IOException;
@@ -19,7 +21,7 @@ public class BrokenimagesTest {
 	WebDriver driver;
 	
 	
-	  @Test
+	  /*
 	  public void brokenlinksTest() throws IOException {
 		  
 		List<WebElement>list=driver.findElements(By.tagName("img"));	
@@ -58,6 +60,40 @@ public class BrokenimagesTest {
 	  }
 	  
 	  
+	  */
+	
+	
+	  
+	  @Test
+	  public void geTest()
+	  {		  
+		  
+		  driver.findElement(By.xpath("//button[@id='openwindow']")).click();
+          
+		  Set<String>set1=driver.getWindowHandles();
+		
+		
+		  Iterator<String>itr=set1.iterator();
+		
+               String p=itr.next();
+               String c=itr.next();
+               
+               
+               driver.switchTo().window(c);
+               
+               
+               System.out.println(driver.getTitle());
+             // driver.getTitle();
+               
+             
+          
+               
+               
+           	
+               
+		  
+	  }
+	  
 	  @BeforeClass
 	  public void beforeClass() {
 		  
@@ -65,9 +101,11 @@ public class BrokenimagesTest {
 		  driver=new ChromeDriver();
 		  driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
-			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			driver.get("https://toolsqa.com/selenium-webdriver/dropdown-in-selenium/");
+			driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+			//driver.get("https://toolsqa.com/selenium-webdriver/dropdown-in-selenium/");
+			
+			driver.navigate().to("https://rahulshettyacademy.com/AutomationPractice/");
 	  }
 
 	  @AfterClass

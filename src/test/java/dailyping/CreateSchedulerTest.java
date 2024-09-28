@@ -26,7 +26,7 @@ public class CreateSchedulerTest {
 		  
 		 System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
-	 }
+	 } 
 	 
 	 
 	 

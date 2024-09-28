@@ -1,9 +1,10 @@
-package com.qa.tests;
+		package com.qa.tests;
 
 public class Bubblesort67 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		
 		
 		
@@ -20,7 +21,7 @@ public class Bubblesort67 {
 					
 					
 					temp=arr[i];
-					arr[i]=arr[j];
+					arr[i]=arr[j];	
 					arr[j]=temp;
 				}
 				
@@ -28,7 +29,7 @@ public class Bubblesort67 {
 		}
 		
 		
-		for(int c:arr)
+		for(int c:arr)		
 		{
 			System.out.println(c);
 		}
