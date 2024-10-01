@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.ChromeoptionsssssssTest">
+      <class name="com.qa.tests.CssselectorsTest">
         <methods>
-          <include name="afterClass"/>
-          <include name="fTest"/>
-          <include name="flTest"/>
+          <include name="eeeTest"/>
           <include name="beforeClass"/>
-          <include name="fkkTest"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.qa.tests.ChromeoptionsssssssTest -->
+      </class> <!-- com.qa.tests.CssselectorsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

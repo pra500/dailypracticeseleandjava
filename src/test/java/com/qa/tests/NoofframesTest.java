@@ -14,7 +14,7 @@ import org.testng.annotations.AfterClass;
 public class NoofframesTest {
 	
 	
-	//WebDriver driver;
+	WebDriver driver;
   @Test
   public void fTest() {
 	  

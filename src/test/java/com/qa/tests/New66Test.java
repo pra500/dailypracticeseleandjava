@@ -48,6 +48,17 @@ public class New66Test {
   
   
   
+  @Test
+  public void F77iTest() {
+	  
+	  
+	  
+	 
+	  
+  }
+  
+  
+  
   
   
   @BeforeClass

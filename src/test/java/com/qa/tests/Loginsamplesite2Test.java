@@ -17,8 +17,7 @@ public class Loginsamplesite2Test {
 	
 	
   @Test
-  public void fTest() {
-	  
+  public void fTest() {	  
 	  
 	  
 	  boolean b=driver.findElement(By.xpath("//h2[normalize-space()='Test login']")).isDisplayed();	  

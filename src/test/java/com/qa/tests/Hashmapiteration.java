@@ -19,7 +19,7 @@ public class Hashmapiteration {
 	}
 	
 		
-		
+			
 		String s=map.get(12);
 		System.out.println(s);
 

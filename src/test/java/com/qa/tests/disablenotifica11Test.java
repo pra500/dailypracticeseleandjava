@@ -2,13 +2,16 @@ package com.qa.tests;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import java.util.*;
 
 public class disablenotifica11Test {
 	
@@ -27,6 +30,16 @@ public class disablenotifica11Test {
   }
   
   
+	
+  @Test(enabled = true)
+  public void ffrTest() {
+	  
+	  
+ List<WebElement>	list=driver.findElements(By.cssSelector(".img-responsive"));
+ System.out.println(list.size());
+ 
+	  
+  }
   
   
   
