@@ -22,10 +22,37 @@ public class CalendarTest {
 	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
 	  	  
 	  
+	  	  
+	  	   
+	 
+  }
+  
+  
+  @Test
+  public void fkkTest() {
+	  
+	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
+	  	  
+	  
 	//input[@id='first_date_picker']	  	  
 	  	   
 	 
   }
+  
+  
+  @Test
+  public void fkkr
+  Test() {
+	  
+	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
+	  	  
+	  
+	//input[@id='first_date_picker']	  	  
+	  	   
+	 
+  }
+  
+  
   @BeforeClass
   public void beforeClass() {
 	  

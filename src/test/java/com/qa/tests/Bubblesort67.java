@@ -1,4 +1,4 @@
-		package com.qa.tests;
+package com.qa.tests;
 
 public class Bubblesort67 {
 

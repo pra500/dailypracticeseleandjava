@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeClass;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -18,7 +19,8 @@ public class chromeoptionsTest {
   @Test
   public void fTest() {
 	  
-	 	 System.out.println(driver.getClass());
+	 	boolean b=driver.findElement(By.cssSelector("#first_date_picker")).isDisplayed();	 	
+	 	System.out.println(b);
 	  
   }
   
@@ -26,11 +28,13 @@ public class chromeoptionsTest {
   @Test
   public void jfTest() {
 	  
-	 	 System.out.println(driver.getTitle());
+		boolean b=driver.findElement(By.cssSelector("#second_date_picker")).isDisplayed();	 	
+	 	System.out.println(b);
+	  
 	  
   }
   
-  @Test
+  //@Test
   public void fkkTest() {
 	  
 	 	 System.out.println(driver.getWindowHandles());
@@ -38,7 +42,7 @@ public class chromeoptionsTest {
   }
   
   
-  @Test
+  //@Test
   public void fkk12Test() {
 	  
 	  System.out.println(driver.getTitle());
@@ -46,7 +50,7 @@ public class chromeoptionsTest {
 	  
   }
   
-  @Test
+ // @Test
   public void fkk13Test() {
 	  
 	 	 System.out.println(driver.getTitle());
@@ -54,6 +58,33 @@ public class chromeoptionsTest {
   }
   
   @Test
+  public void fkk14yTest() {
+	  
+	 	 System.out.println(driver.getWindowHandle());
+	 	 
+	  
+  }
+  
+
+  @Test
+  public void fkk14ttTest() {
+	  
+	 	 System.out.println(driver.getWindowHandle());
+	 	 
+	  
+  }
+  
+
+ // @Test
+  public void fkk14ttTest() {
+	  
+	 	 System.out.println(driver.getWindowHandle());
+	 	 
+	  
+  }
+  
+
+  //@Test
   public void fkk14Test() {
 	  
 	 	 System.out.println(driver.getWindowHandle());
