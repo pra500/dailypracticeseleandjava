@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="alwayspracticehere.NewrrTest">
         <methods>
           <include name="afterClass"/>
@@ -10,6 +11,13 @@
           <include name="fddrTest"/>
         </methods>
       </class> <!-- alwayspracticehere.NewrrTest -->
+=======
+      <class name="alwayspracticehere.KKKTest">
+        <methods>
+          <include name="fTest"/>
+        </methods>
+      </class> <!-- alwayspracticehere.KKKTest -->
+>>>>>>> 9d300ef (jk)
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

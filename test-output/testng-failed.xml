@@ -4,6 +4,7 @@
   <test thread-count="5" parallel="tests" name="Test3(failed)">
     <parameter name="browser" value="safari"/>
     <classes>
+<<<<<<< HEAD
       <class name="com.qa.tests.NqTest">
         <methods>
           <include name="f4Test"/>
@@ -18,6 +19,13 @@
           <include name="fTest"/>
         </methods>
       </class> <!-- com.qa.tests.NqTest -->
+=======
+      <class name="alwayspracticehere.KKKTest">
+        <methods>
+          <include name="fTest"/>
+        </methods>
+      </class> <!-- alwayspracticehere.KKKTest -->
+>>>>>>> 9d300ef (jk)
     </classes>
   </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite] -->
