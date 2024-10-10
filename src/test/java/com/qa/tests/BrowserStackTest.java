@@ -3,7 +3,10 @@ package com.qa.tests;
 import org.testng.annotations.Test;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
 import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 
 import org.testng.annotations.BeforeTest;
 
@@ -24,9 +27,10 @@ public class BrowserStackTest {
 	 * 
 	 * @author: Pragti Gupta
 	 */
+	
+	@Test
 	@Step("for getting url")
 	@Description("url")
-	@Test
 	public void titleTest() {
 
 		String url = driver.getCurrentUrl();
@@ -35,9 +39,10 @@ public class BrowserStackTest {
 	}
 
 	
+	
+	@Test
 	@Step("for getting title")
 	@Description("title")
-	@Test
 	public void title1Test() {
 
 		boolean b = driver.findElement(By.xpath("//button[@id='products-dd-toggle']")).isDisplayed();
@@ -47,9 +52,10 @@ public class BrowserStackTest {
 
 	
 	
+	@Test
+
 	@Step("Accessibility Testing")
 	@Description("forAccessibility Testing")
-	@Test
 	public void title3Test() {
 
 		boolean b = driver.findElement(By.xpath(
@@ -61,17 +67,27 @@ public class BrowserStackTest {
 	}
 
 	
+	
+	@Test
 	@Step("verify logo")
 	@Description("verifying the logo")
-	@Test
+	//@Severity(Se")
+	@Feature("ythewfef")
+	@Story("ff")
 	public void title4Test() {
 
 		boolean b = driver.findElement(By.xpath("(//img[@alt='BrowserStack Logo'])[1]")).isDisplayed();
 		Assert.assertTrue(b);
 
 	}
+		
+	
+	
+
+	
 
 	@BeforeTest
+	@Step("launching the browser")
 	public void beforeTest() {
 
 		driver = new ChromeDriver();
@@ -83,6 +99,7 @@ public class BrowserStackTest {
 	}
 
 	@AfterTest
+	@Step("closing the browser")
 	public void afterTest() {
 		driver.close();
 	}

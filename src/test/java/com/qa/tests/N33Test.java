@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.AfterClass;
 
 public class N33Test {
@@ -20,47 +21,66 @@ public class N33Test {
 	
 	
 	
+//	
+//	
+//	
+//  @Test
+//  public void fTest() {
+//	  
+//	  String title=driver.getTitle();	  
+//	  Assert.assertEquals(title,  "Practice Page");
+//  }
+//  
+//	
+//  @Test
+//  public void fiiTest() {
+//	  
+//	  String title=driver.getTitle();	  
+//	  Assert.assertEquals(title,  "Practice Page");
+//  }
+//  
+//  
+//	
+//  @Test
+//  public void fiTest() {
+//	  
+//	  String url=driver.getCurrentUrl();	  
+//	  Assert.assertEquals(url, "https://rahulshettyacademy.com/AutomationPractice/");
+//  }
+//  
+//	
+//  @Test
+//  public void fioTest() {
+//	  
+//	  String url=driver.getCurrentUrl();	  
+//	  Assert.assertEquals(url, "https://rahulshettyacademy.com/AutomationPractice/");
+//  }
+//  
+//	
+//  @Test
+//  public void ftiTest() {
+//	  
+//	  String url=driver.getCurrentUrl();	  
+//	  Assert.assertEquals(url, "https://rahulshettyacademy.com/AutomationPractice/");
+//  }
+//  
 	
-  @Test
-  public void fTest() {
-	  
-	  String title=driver.getTitle();	  
-	  Assert.assertEquals(title,  "Practice Page");
-  }
-  
 	
-  @Test
-  public void fiiTest() {
-	  
-	  String title=driver.getTitle();	  
-	  Assert.assertEquals(title,  "Practice Page");
-  }
-  
-  
 	
-  @Test
-  public void fiTest() {
-	  
-	  String url=driver.getCurrentUrl();	  
-	  Assert.assertEquals(url, "https://rahulshettyacademy.com/AutomationPractice/");
-  }
-  
+
+	@Test
+	public void hTest()
+	{
+		
+		
+int t=	driver.hashCode();
+System.out.println(t);
+	}
+
 	
-  @Test
-  public void fioTest() {
-	  
-	  String url=driver.getCurrentUrl();	  
-	  Assert.assertEquals(url, "https://rahulshettyacademy.com/AutomationPractice/");
-  }
-  
 	
-  @Test
-  public void ftiTest() {
-	  
-	  String url=driver.getCurrentUrl();	  
-	  Assert.assertEquals(url, "https://rahulshettyacademy.com/AutomationPractice/");
-  }
-  
+	
+	
   @BeforeClass
   public void beforeClass() {
 	  
@@ -70,7 +90,7 @@ public class N33Test {
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-		System.out.println(driver.getTitle());
+		//System.out.println(driver.getTitle());
 		
   }
 

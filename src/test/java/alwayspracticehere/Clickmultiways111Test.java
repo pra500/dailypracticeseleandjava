@@ -13,9 +13,9 @@ public class Clickmultiways111Test {
 	WebDriver driver;
 	
   @Test
-  public void fTest() throws InterruptedException {  	  
+  public void fTest() throws InterruptedException {  
 	   
-	  
+	  	  
 	    
 	  
 	  

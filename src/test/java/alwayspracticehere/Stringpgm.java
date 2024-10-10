@@ -1,5 +1,7 @@
 package alwayspracticehere;
 
+import java.util.*;
+
 public class Stringpgm {
 
 	public static void main(String[] args) {
@@ -77,23 +79,104 @@ public class Stringpgm {
 		
 			
 		
-		
-		
+				
 			
 		
+		/* 
+		String str="pragti is good good";
 		
 		
+	String[] arr=str.split(" ");
 	
+	Map<String, Integer>map=new HashMap<String, Integer>();
+	
+	for(String s:arr)
+	{
+		if(map.containsKey(s))
+		{
+			
+			map.put(s, map.get(s)+1);
+		}
+		else
+		{
+			
+			map.put(s, 1);
+		}
+	}
+	
+	
+    Set<Map.Entry<String, Integer>>set1=map.entrySet();
+    
+    for(Map.Entry<String, Integer>mm:set1)
+    {
+    	
+    	if(mm.getValue()==1)
+    	{
+    		//System.out.println(mm.getKey() + ":" + mm.getValue());
+    		System.out.println(mm.getKey());
+    	}
+    	
+    }
+	
+	*/
+		
+		/*
+		//removing duplicate words in a string
+				
+		String str = "This is a good image is a";		
+		
+		String[] arr=str.split(" ");	
+		
+		//Set<String>set1=new LinkedHashSet<String>();   	//[This, is, a, good, image]
+		
+		//Set<String>set1=new HashSet<String>();     //[a, image, This, is, good]
+		
+		
+		Set<String>set1=new TreeSet<String>();   //[This, a, good, image, is]
+		
+		
+	for(String s:arr)
+	{
+		set1.add(s);
+	}
+				
+		
+	System.out.println(set1);   
+		
+         */
 		
 		
 		
 		
 		
+	String str = "This is a good image is a";			
 		
+	String str1=str.toLowerCase();
+	
+	
+	String[] arr=str1.split(" ");
+	
+	
+	
+	Set<String>set1=new TreeSet<String>();   //[This, a, good, image, is]
+	
+	
+	for(String s:arr)
+	{
+		set1.add(s);
+	}
+				
 		
-		
-		
-		
+	System.out.println(set1);   //[a, good, image, is, this]
+	
+	
+	
+	
+	
+	
+	
+	
+
 
 	}
 

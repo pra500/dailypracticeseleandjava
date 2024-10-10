@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.CssselectorsTest">
+      <class name="alwayspracticehere.NewrrTest">
         <methods>
-          <include name="eeeTest"/>
-          <include name="beforeClass"/>
           <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="fddrTest"/>
         </methods>
-      </class> <!-- com.qa.tests.CssselectorsTest -->
+      </class> <!-- alwayspracticehere.NewrrTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

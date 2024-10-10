@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite" thread-count="5">
+	
+	<!-- need to chk the code   -->
+	
+  <test name="Test">
+	  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.qa.tests.NqTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  	
+  <test name="Test2">
+	  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.qa.tests.NqTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   
+  	
+  <test name="Test3">
+	  <parameter name="browser" value="safari"></parameter>
+    <classes>
+      <class name="com.qa.tests.NqTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
+
+
+

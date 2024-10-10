@@ -37,19 +37,46 @@ public class AutoSuggestionTest {
 	
 	
 	
+	
+	
 	@Test
 	  public void fTest() {
-		  
+		 	
 		
 		
+	List<WebElement>list=driver.findElements(By.tagName("img"));
 	
+	for(int i=0;i<=list.size()-1;i++)
+	{
 		
 		
+	WebElement wb =	list.get(i);
+	String b=wb.getAttribute("src");
+	
+	broken(b);
+	}
+	
+	
+	
+	
+	
+	}
+	public static void  broken(String url)
+	{
+		
+		
+		
+	}
+	
+	
+	
+	
+	
 		
 	 
 	  
 	  
-  }
+  
   @BeforeClass
   public void beforeClass() {
 	  

@@ -22,7 +22,7 @@ public class ConcurrentkeyoperatinsTest {
 	
 	WebDriver driver;
 	
-  @Test
+  //@Test
   public void fTest() throws InterruptedException {
 	  
 Thread.sleep(5000); 
@@ -47,7 +47,13 @@ WebElement wb= driver.findElement(By.xpath("//button[@id='submit']"));
   
   
       
-  
+  @Test
+  public void sTest()
+  {
+	
+	  driver.findElement(//table//tbody//tr//td[3][contains(text(), '606')])
+	  
+  }
   
   
   
@@ -59,7 +65,9 @@ WebElement wb= driver.findElement(By.xpath("//button[@id='submit']"));
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("https://practicetestautomation.com/practice-test-login/");
+		//driver.get("https://practicetestautomation.com/practice-test-login/");
+		
+		driver.get("https://demo.guru99.com/test/web-table-element.php");
   }
 
   @AfterClass

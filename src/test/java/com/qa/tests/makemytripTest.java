@@ -2,13 +2,17 @@ package com.qa.tests;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.*;
+
 public class makemytripTest {
+	
 	
 	
 	
@@ -33,18 +37,19 @@ public class makemytripTest {
 	  
   }
   
-  @Test
-  public void f1Test() {
-  }
   
-  @Test
-  public void f2Test() {
-  }
-  
-  
-  @Test
-  public void f3Test() {
-  }
+	  
+	  @Test
+	  public void f2Test() {
+		  
+		  String s=driver.getWindowHandle();
+		  System.out.println(s);
+	  }
+	  
+	  
+	  @Test
+	  public void f3Test() {
+	  }
   
   @Test
   public void f4Test() {
@@ -67,7 +72,7 @@ public class makemytripTest {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);	
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-		driver.get("https://practicetestautomation.com/practice-test-login/");	  
+		driver.get("https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/chrome/ChromeOptions.html");	  
 		
 		
 	  

@@ -6,7 +6,7 @@ import org.testng.annotations.AfterClass;
 
 public class NwwwwTest {
 
-	@Test(priority = 0, expectedExceptions = nLL)
+	@Test(priority = 0, expectedExceptions = NullPointerException)
 	public void fTest() {
 
 		System.out.println("he");

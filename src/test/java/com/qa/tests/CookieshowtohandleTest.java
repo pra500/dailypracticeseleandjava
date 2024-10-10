@@ -13,7 +13,10 @@ import org.testng.annotations.AfterClass;
 
 public class CookieshowtohandleTest {
 	
+	
 	WebDriver driver;
+				
+	
 	
 	
   @Test

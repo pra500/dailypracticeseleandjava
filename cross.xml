@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suitecross">
+
+	
+  <test name="Testcross">
+	  <parameter name="browser" value="chrome"></parameter>
+	  
+	  <classes>
+		  
+		  <class name="alwayspracticehere.CrosssbrowserTest"></class>
+	  </classes>
+  </test> <!-- Testcross -->
+  
+  
+  
+  
+  	
+  <test name="Testcross1">
+	  <parameter name="browser" value="edge"></parameter>
+	  <classes>
+		  
+		  <class name="alwayspracticehere.CrosssbrowserTest"></class>
+	  </classes>
+  </test> <!-- Testcross -->
+  
+  
+</suite> <!-- Suitecross -->

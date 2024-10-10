@@ -16,7 +16,7 @@ public class CartTest {
 	
 	WebDriver driver;
 	
-  @Test
+  //@Test
   public void fTest() {	  
 	  
 	  
@@ -25,6 +25,36 @@ public class CartTest {
 	  driver.findElement(By.xpath("//h1[normalize-space()='Shopping Cart']")).click();
 	
   }
+  
+  
+
+  @Test
+  public void foolTest() {	  
+	  
+	  
+	
+	
+  }
+  
+	
+  @Test
+  public void fooyTest() {	  
+	  
+	  
+	
+	
+  }
+  
+	
+  @Test
+  public void foooTest() {	  
+	  
+
+	boolean b=  driver.findElement(By.cssSelector("img[title='naveenopencart']")).isDisplayed();
+	  
+	System.out.println(b);
+  }
+  
   @BeforeClass
   public void beforeClass() {
 	  
@@ -44,9 +74,7 @@ public class CartTest {
 	  	  
   }
 
-  //**************
-  //**************
-  //**************
+ 
   
   
 }
