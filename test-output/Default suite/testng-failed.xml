@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="alwayspracticehere.NewrrTest">
+      <class name="parallelexe.TestCasesParallelExecution">
         <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="fddrTest"/>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- alwayspracticehere.NewrrTest -->
+      </class> <!-- parallelexe.TestCasesParallelExecution -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,4 +1,4 @@
-	package com.qa.tests;
+package com.qa.tests;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
@@ -29,7 +29,10 @@ public class alllinksTest {
 	
 	js.executeScript("arguments[0].click();", wb);
 	
+	System.out.println();
+	
   }
+  
   
   
   
@@ -41,6 +44,37 @@ public class alllinksTest {
 	  
   }
   
+  @Test
+  public void flTest() {
+	  
+	JavascriptExecutor js=(JavascriptExecutor)driver;
+	js.executeScript("document.getElementById('username').value='student';");
+	  
+  }
+  
+  
+  
+  
+
+  @Test
+  public void flTest() {
+	  
+	JavascriptExecutor js=(JavascriptExecutor)driver;
+	js.executeScript("document.getElementById('username').value='student';");
+	  
+  }
+  
+
+  @Test
+  public void flTest() {
+	  
+	JavascriptExecutor js=(JavascriptExecutor)driver;
+	js.executeScript("document.getElementById('username').value='student';");
+	  
+  }
+  
+  
+
   @Test
   public void flTest() {
 	  

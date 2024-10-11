@@ -1,0 +1,1 @@
+{"uuid":"55a9b2ff-dae1-45d3-b502-2b72f7b82c2c","name":"com.qa.tests.NewyTest","children":["b30d3062-4cf0-40a2-a16c-4de6b2a82009"],"befores":[{"name":"setuo","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1728562816732,"stop":1728562824137}],"afters":[],"start":1728562816637,"stop":1728562827293}
