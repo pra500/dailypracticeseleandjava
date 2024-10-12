@@ -29,7 +29,7 @@ public class AccountTest {
 	  driver.findElement(By.xpath("//a[normalize-space()='Register']")).click();
 	  
 	  
-	  
+	  //*************
   }
 
 	 
