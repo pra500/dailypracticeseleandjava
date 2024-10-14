@@ -92,6 +92,29 @@ public class chromeoptionsTest {
 	  
   }
   
+  
+  @Test
+  public void fkkk14Test() {
+	  
+	 	driver.get("https://naveenautomationlabs.com/opencart/"); 
+	 	
+	 	
+	 	String s=driver.getWindowHandle();
+	 	
+	 	System.out.println(s);
+	 	if(s=="CB469CFF35C95E11EAB39C82A56944E5")
+	 	{
+	 		System.out.println("yes");
+	 	}
+	 	
+	 	else
+	 		
+	 	{
+	 		System.out.println("no");
+	 	}
+	 	
+	 	}
+  
   @BeforeClass
   public void beforeClass() {
 

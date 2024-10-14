@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Test3(failed)">
-    <parameter name="browser" value="safari"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.NqTest">
+      <class name="alwayspracticehere.Clickmultiways111Test">
         <methods>
-          <include name="f4Test"/>
-          <include name="f1Test"/>
-          <include name="beforeClass"/>
-          <include name="f5Test"/>
-          <include name="afterClass"/>
-          <include name="f6Test"/>
-          <include name="f7Test"/>
-          <include name="f2Test"/>
-          <include name="f3Test"/>
           <include name="fTest"/>
         </methods>
-      </class> <!-- com.qa.tests.NqTest -->
+      </class> <!-- alwayspracticehere.Clickmultiways111Test -->
     </classes>
-  </test> <!-- Test3(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

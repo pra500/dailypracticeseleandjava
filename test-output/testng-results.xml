@@ -1,60 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-10T13:05:16 IST" name="Suite" finished-at="2024-10-10T13:05:32 IST" duration-ms="15471">
+  <suite started-at="2024-10-14T09:18:11 IST" name="Default suite" finished-at="2024-10-14T09:18:17 IST" duration-ms="5876">
     <groups>
     </groups>
-    <test started-at="2024-10-10T13:05:16 IST" name="Test" finished-at="2024-10-10T13:05:32 IST" duration-ms="15471">
-      <class name="com.qa.tests.NqTest">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.qa.tests.NqTest@341814d3]" started-at="2024-10-10T13:05:16 IST" name="beforeClass" finished-at="2024-10-10T13:05:30 IST" duration-ms="13797" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-10-14T09:18:11 IST" name="Default test" finished-at="2024-10-14T09:18:17 IST" duration-ms="5876">
+      <class name="alwayspracticehere.ChromeOptionspracTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:alwayspracticehere.ChromeOptionspracTest@3561c410]" started-at="2024-10-14T09:18:11 IST" name="beforeClass" finished-at="2024-10-14T09:18:15 IST" duration-ms="4294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f1Test()[pri:0, instance:com.qa.tests.NqTest@341814d3]" started-at="2024-10-10T13:05:30 IST" name="f1Test" finished-at="2024-10-10T13:05:30 IST" duration-ms="107" status="PASS">
+        <test-method signature="fnTest()[pri:0, instance:alwayspracticehere.ChromeOptionspracTest@3561c410]" started-at="2024-10-14T09:18:15 IST" name="fnTest" finished-at="2024-10-14T09:18:16 IST" duration-ms="823" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f1Test -->
-        <test-method signature="f2Test()[pri:0, instance:com.qa.tests.NqTest@341814d3]" started-at="2024-10-10T13:05:30 IST" name="f2Test" finished-at="2024-10-10T13:05:30 IST" duration-ms="32" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f2Test -->
-        <test-method signature="f3Test()[pri:0, instance:com.qa.tests.NqTest@341814d3]" started-at="2024-10-10T13:05:30 IST" name="f3Test" finished-at="2024-10-10T13:05:30 IST" duration-ms="45" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f3Test -->
-        <test-method signature="f4Test()[pri:0, instance:com.qa.tests.NqTest@341814d3]" started-at="2024-10-10T13:05:30 IST" name="f4Test" finished-at="2024-10-10T13:05:30 IST" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f4Test -->
-        <test-method signature="f5Test()[pri:0, instance:com.qa.tests.NqTest@341814d3]" started-at="2024-10-10T13:05:30 IST" name="f5Test" finished-at="2024-10-10T13:05:30 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f5Test -->
-        <test-method signature="f6Test()[pri:0, instance:com.qa.tests.NqTest@341814d3]" started-at="2024-10-10T13:05:31 IST" name="f6Test" finished-at="2024-10-10T13:05:31 IST" duration-ms="45" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f6Test -->
-        <test-method signature="f7Test()[pri:0, instance:com.qa.tests.NqTest@341814d3]" started-at="2024-10-10T13:05:31 IST" name="f7Test" finished-at="2024-10-10T13:05:31 IST" duration-ms="225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f7Test -->
-        <test-method signature="fTest()[pri:0, instance:com.qa.tests.NqTest@341814d3]" started-at="2024-10-10T13:05:31 IST" name="fTest" finished-at="2024-10-10T13:05:31 IST" duration-ms="188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.NqTest@341814d3]" started-at="2024-10-10T13:05:31 IST" name="afterClass" finished-at="2024-10-10T13:05:32 IST" duration-ms="812" status="PASS">
+        </test-method> <!-- fnTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:alwayspracticehere.ChromeOptionspracTest@3561c410]" started-at="2024-10-14T09:18:17 IST" name="afterClass" finished-at="2024-10-14T09:18:17 IST" duration-ms="367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.qa.tests.NqTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- alwayspracticehere.ChromeOptionspracTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

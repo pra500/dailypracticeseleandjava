@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="alwayspracticehere.NewrrTest">
+      <class name="alwayspracticehere.Clickmultiways111Test">
         <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="fddrTest"/>
+          <include name="fTest"/>
         </methods>
-      </class> <!-- alwayspracticehere.NewrrTest -->
+      </class> <!-- alwayspracticehere.Clickmultiways111Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
