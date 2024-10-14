@@ -95,6 +95,20 @@ public class BrokenimagesTest {
 		  
 	  }
 	  
+	  
+
+	
+	  
+	  @Test
+	  public void pTest()
+	  {
+		  
+		  System.out.println( driver.getPageSource());
+		
+		  
+		  
+		  
+	  }
 	  @BeforeClass
 	  public void beforeClass() {
 		  
