@@ -43,11 +43,14 @@ public class ScrollintoviewTest {
 	 List<WebElement> list=driver.findElements(By.tagName("a"));
 	 System.out.println(list.size());
 	
-	  
+	 
+	
 	  
 	  
 	  
   }
+  
+  
   
   
   
