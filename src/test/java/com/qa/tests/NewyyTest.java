@@ -20,6 +20,25 @@ public class NewyyTest {
 	  driver.findElement(By.cssSelector("#email1")).sendKeys("ccc@yahoo.in");
 	  
   }
+  
+  
+	
+  @Test
+  public void fjTest() {
+	  driver.findElement(By.cssSelector("#email1")).sendKeys("ccc@yahoo.in");
+	  
+  }
+  
+  
+  
+	
+  @Test
+  public void fkkTest() {
+	  driver.findElement(By.cssSelector("#email1")).sendKeys("ccc@yahoo.in");
+	  
+  }
+  
+  
   @BeforeClass
   public void beforeClass() {
 	  

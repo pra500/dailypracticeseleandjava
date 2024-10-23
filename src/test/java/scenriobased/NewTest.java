@@ -24,6 +24,20 @@ public class NewTest {
 	  
 	  
 	  
+	  driver.switchTo().newWindow((WindowType.WINDOW));
+	  
+	  
+	  
+	 }
+  
+	
+	
+  @Test
+  public void fikTest() {
+	  
+	  
+	  
+	  
 	  
 	  
 	  driver.switchTo().newWindow((WindowType.WINDOW));
@@ -31,7 +45,6 @@ public class NewTest {
 	  
 	  
 	 }
-  
   
   
   

@@ -45,8 +45,38 @@ public class Particularlink {
 		
 		
 		
+		
+		
+		
+		
+		
+		
 	}
 
+	
+	
+//	
+//
+//	@Test
+//	public void hanhhdleTest(de
+//	{
+//		
+//		
+//		List<WebElement>links=driver.findElements(By.tagName("a"));
+//		
+//		for(int i=0;i<=links.size()-1;i++)
+//		{
+//			String str=links.get(i).getText();
+//			if(str.equalsIgnoreCase("Home"))
+//			{
+//				System.out.println(str);
+//				break;
+//			}
+//			
+//		}
+//		
+	
+	
 	
 	
 	 @BeforeClass

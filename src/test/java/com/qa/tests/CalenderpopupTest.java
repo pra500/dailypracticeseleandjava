@@ -106,7 +106,7 @@ public class CalenderpopupTest {
 
 		Select sel = new Select(wb);
 
-		sel.selectByVisibleText("Aruba");
+		sel.selectByVisibleText("Aruba");		
 
 	}
 

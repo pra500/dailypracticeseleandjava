@@ -36,6 +36,7 @@ public class alllinksTest {
   
   
   
+
   @Test
   public void kkkTest() {
 	  
@@ -45,7 +46,7 @@ public class alllinksTest {
   }
   
   @Test
-  public void flTest() {
+  public void fjlTest() {
 	  
 	JavascriptExecutor js=(JavascriptExecutor)driver;
 	js.executeScript("document.getElementById('username').value='student';");
@@ -76,7 +77,7 @@ public class alllinksTest {
   
 
   @Test
-  public void flTest() {
+  public void fljTest() {
 	  
 	JavascriptExecutor js=(JavascriptExecutor)driver;
 	js.executeScript("document.getElementById('username').value='student';");
@@ -85,6 +86,11 @@ public class alllinksTest {
   
   
   
+<<<<<<< HEAD
+=======
+  
+  
+>>>>>>> branch5
   @BeforeClass
   public void beforeClass() {
 	  	  
@@ -105,5 +111,7 @@ public class alllinksTest {
   public void afterClass() {
 	  driver.close();
   }
+
+
 
 }

@@ -8,6 +8,11 @@ public class Bubblesort67 {
 		
 		
 		
+		
+		
+		
+		
+		
 		int[] arr= {7, 8, 4};
 		int temp=0;
 		

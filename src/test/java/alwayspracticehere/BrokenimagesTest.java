@@ -40,6 +40,7 @@ public class BrokenimagesTest {
 	  }
 	  
 	  
+	  
 	  public void broke(String url) throws IOException
 	  {
 		  
@@ -94,8 +95,22 @@ public class BrokenimagesTest {
 		  
 	  }
 	  
+	  
+
+	
+	  
+	  @Test
+	  public void pTest()
+	  {
+		  
+		  System.out.println( driver.getPageSource());
+		
+		  
+		  
+		  
+	  }
 	  @BeforeClass
-	  public void beforeClass() {
+	  public void beforeClass() {	  
 		  
 		  
 		  driver=new ChromeDriver();

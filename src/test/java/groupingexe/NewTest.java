@@ -38,10 +38,15 @@ public class NewTest {
 	  
 	  
 	  
-  }
-  @BeforeClass
-  public void beforeClass() {
 	  
+	  
+	  
+  }
+  
+  
+  
+  @BeforeClass
+  public void beforeClass() {	  
 	  
 	    driver=new ChromeDriver();		
 		driver.manage().window().maximize();

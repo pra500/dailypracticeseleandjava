@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Action;
 import org.testng.annotations.AfterClass;
 
 public class chromeoptionsTest {
@@ -91,6 +92,50 @@ public class chromeoptionsTest {
 	 	 
 	  
   }
+  
+  
+  @Test
+  public void fkkk14Test() {
+	  
+	 	driver.get("https://naveenautomationlabs.com/opencart/"); 
+	 	
+	 	
+	 	String s=driver.getWindowHandle();
+	 	
+	 	System.out.println(s);
+	 	if(s=="CB469CFF35C95E11EAB39C82A56944E5")
+	 	{
+	 		System.out.println("yes");
+	 	}
+	 	
+	 	else
+	 		
+	 	{
+	 		System.out.println("no");
+	 	}
+	 	
+	 	}
+  
+  
+  
+  
+  
+  
+
+  @Test
+  public void fkkk1s4Test() {
+	  
+	
+//	 	driver.get("https://practicetestautomation.com/practice-test-login/");
+//	 	Action act=new Action(driver);
+//	 	
+	 	
+	 	
+	 	
+	 	}
+  
+  
+  
   
   @BeforeClass
   public void beforeClass() {

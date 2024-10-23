@@ -38,7 +38,7 @@ public class NewyyyyyfffTest {
   
   
 	
-  @Test
+  @Test(invocationCount = 11)
   public void getoooTest() {
 	  System.out.println();
 	  boolean b=driver.getCurrentUrl().contains("g");

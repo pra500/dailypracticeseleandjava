@@ -255,7 +255,7 @@ public class NewTest {
 	  @Test
 	  public void fwwwwTest() {
 		  
-		  driver.findElement(By.xpath("//input[@placeholder='Search2']")).sendKeys("apple", Keys.ENTER);
+		 driver.findElement(By.xpath("//input[@placeholder='Search2']")).sendKeys("apple", Keys.ENTER);
 		  
 		String title=driver.getTitle();
 		
@@ -273,6 +273,7 @@ public class NewTest {
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://naveenautomationlabs.com/opencart/");
+		
   }
 
   @AfterClass

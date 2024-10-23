@@ -90,6 +90,19 @@ public class RahulShettyLoginTest {
 	  
   }
   
+  
+
+ @Test(priority = 1)
+  public void gettitnleTest() {
+	  
+	
+	 Alert alt=driver.switchTo().alert();
+	 alt
+	 
+	 
+	  }
+  
+  
   @BeforeClass
   public void beforeClass() {
 	  

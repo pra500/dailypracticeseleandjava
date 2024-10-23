@@ -35,6 +35,29 @@ public class MakemytripdddTest {
 	System.out.println(url);
 	 
   }
+  
+  @Test
+  public void getkklURLTest() {
+	  
+	  
+	String url=driver.getCurrentUrl();
+	
+	System.out.println(url);
+	 
+  }
+  
+  
+  @Test
+  public void getkklURLTest() {
+	  
+	  
+	String url=driver.getClass();
+	
+	System.out.println(url);
+	 
+  }
+  
+ 
   @BeforeClass
   public void beforeClass() {
 	  driver=new ChromeDriver();		

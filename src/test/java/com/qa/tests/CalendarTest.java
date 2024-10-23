@@ -14,23 +14,21 @@ import org.testng.annotations.AfterClass;
 
 public class CalendarTest {
 	
-	WebDriver driver;
+	
+	
+	WebDriver driver;	
 	
   @Test
   public void fTest() {
 	  
-	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
-	  	  
-	  
-	  	  
-	  	   
+	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();	  	   
 	 
   }
   
   
   @Test
   public void fkkTest() {
-	  
+	  	
 	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
 	  	  
 	  
@@ -42,8 +40,29 @@ public class CalendarTest {
   
   
   @Test
-  public void fkkr
-  Test() {
+  public void fkkrggTest() {
+	  
+	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
+	  	  
+	  
+	//input[@id='first_date_picker']	  	  
+	  	   
+	 
+  }
+  
+  @Test
+  public void fkkrggTest() {
+	  
+	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
+	  	  
+	  
+	//input[@id='first_date_picker']	  	  
+	  	   
+	 
+  }
+  
+  @Test
+  public void fkkrggTest() {
 	  
 	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
 	  	  
