@@ -18,8 +18,7 @@ import java.util.*;
 
 
 
-public class NejjjwTest {
-	
+public class NejjjwTest {	
 	
 	WebDriver driver;
   @Test
@@ -38,28 +37,17 @@ System.out.println(b);
 	List<WebElement>list=driver.findElements(By.tagName("a"));
 	System.out.println(list.size());
   }
-  
-  
-  @Test
-  public void fjTest() {
-	  
-	  
-	  
-	
-	  
-  }
+ 
   
   @BeforeClass
-  public void beforeClass() {
-	  
-	  
+  public void beforeClass() {	  
 	  
 	  driver=new ChromeDriver();
 	  driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-		driver.get("https://practicetestautomation.com/practice-test-login/");
+		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("https://naveenautomationlabs.com/opencart/");
   }
 
   @AfterClass

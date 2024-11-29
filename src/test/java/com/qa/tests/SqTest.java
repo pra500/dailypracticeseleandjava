@@ -65,8 +65,12 @@ for(int i=0;i<=t-1;i++)
   
   
   
+  
+  //soliuitions, learning mgt system, assert the title
+  
   @BeforeClass
   public void beforeClass() {
+	  
 	  
 	  
 	  driver=new ChromeDriver();		

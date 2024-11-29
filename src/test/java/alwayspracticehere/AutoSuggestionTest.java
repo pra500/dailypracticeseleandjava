@@ -14,8 +14,11 @@ import org.testng.annotations.AfterClass;
 
 public class AutoSuggestionTest {
 	
-	WebDriver driver;
-	
+		WebDriver driver;
+		
+	/*	
+		
+		
 	/*
   @Test
   public void fTest() {
@@ -38,7 +41,7 @@ public class AutoSuggestionTest {
 	
 	
 	
-	
+	/*
 	@Test
 	  public void fTest() {
 		 	
@@ -68,6 +71,23 @@ public class AutoSuggestionTest {
 		
 	}
 	
+	*/
+		
+		
+		
+	@Test
+	public void pickdateTest()
+	{	
+				
+		
+		
+		
+		driver.findElement(By.xpath("(//div[@class='DayPicker-Body'])[2]")).click();
+		
+		
+		
+	}
+	
 	
 	
 	
@@ -83,9 +103,12 @@ public class AutoSuggestionTest {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-		driver.get("https://www.google.com");
+		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		//driver.get("https://www.google.com");
+		
+		
+		driver.get("https://www.makemytrip.com/");
   }
 
   @AfterClass

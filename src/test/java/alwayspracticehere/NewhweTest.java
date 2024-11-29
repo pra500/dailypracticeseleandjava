@@ -44,6 +44,19 @@ public class NewhweTest {
   }
   
   
+
+  @Test
+  public void fuuuTest() {
+	  
+	  
+	  boolean b=
+	  driver.findElement(By.xpath("//a[normalize-space()='Practice']")).isDisplayed();
+	  
+	  
+	  System.out.println(b);
+  }
+  
+  
   
   
   @BeforeClass

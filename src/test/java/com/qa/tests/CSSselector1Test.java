@@ -45,6 +45,10 @@ public class CSSselector1Test {
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		driver.get("https://www.makemytrip.com/");
   }
+  
+  
+  
+  
 
   @AfterClass
   public void afterClass() {
