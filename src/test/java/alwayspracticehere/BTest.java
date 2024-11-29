@@ -23,12 +23,49 @@ public class BTest {
 	
 
 	@Test
-	  public void fTest() {
+	  public void fooooTest() {
+		 
+		
+		List<WebElement> list=
+		
+		driver.findElements(By.cssSelector("a.hfe-menu-item"));
+		
+		
+		System.out.println(list.size());
+		
+
+		
+for(int i=0;i<=list.size()-1;i++)
+{
+	
+	
+	System.out.println(list.get(i).getText());
+	
+	//list.get(i).getText();)
+}
+		
+		  
+	  }
+	  
+	
+
+	@Test
+	  public void foTest() {
 		  
 		
 		  
 	  }
 	  
+	
+
+	@Test
+	  public void fdffvfdvmTest() {
+		  
+		
+		  
+	  }
+	  
+	
   
   
   @BeforeClass
@@ -38,9 +75,9 @@ public class BTest {
 	  driver=new ChromeDriver();
 	  driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.get("https://www.guru99.com/");
+		driver.manage().timeouts().pageLoadTimeout(70, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(70, TimeUnit.SECONDS);
+		driver.get("https://selectorshub.com/");
   }
 
   @AfterClass
@@ -48,7 +85,7 @@ public class BTest {
 	  
 	  driver.close();
 	  
-  }
+  }	
   
   
   

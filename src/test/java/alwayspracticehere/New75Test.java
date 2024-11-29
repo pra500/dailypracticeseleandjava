@@ -2,6 +2,7 @@ package alwayspracticehere;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -12,12 +13,35 @@ public class New75Test {
 	
 	WebDriver driver;
 	
-  @Test
-  public void fTest() {
+ // @Test
+  public void fnnTest() {
 	  
-	  System.out.println( driver.getTitle());
+	  
+	//button[@type='submit']
+	  driver.findElement(By.tagna
+	  
+	//button[@type='submit']
+  }
+  
+  
+  
+	
+  @Test
+  public void fkTest() {
+	  
+	  System.out.println(driver.getTitle());
 	 
   }
+  
+  
+	
+  @Test
+  public void fllTest() {
+	  
+	  System.out.println(driver.getTitle());
+	 
+  }
+  
   
   
   
@@ -29,7 +53,7 @@ public class New75Test {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-		driver.get("https://practicetestautomation.com/practice-test-login/");
+		driver.get("https://www.yatra.com/");
 	  
   }
 
