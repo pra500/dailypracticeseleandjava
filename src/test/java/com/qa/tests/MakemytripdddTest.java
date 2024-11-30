@@ -29,7 +29,7 @@ public class MakemytripdddTest {
   @Test
   public void getURLTest() {
 	  
-	  
+	  //getting url of the page:
 	String url=driver.getCurrentUrl();
 	
 	System.out.println(url);
