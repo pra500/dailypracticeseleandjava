@@ -14,13 +14,28 @@ public class New4444Test {
 	WebDriver driver;
 	
 	
-  @Test
+  //@Test
   public void fTest() {
 	  
 	
   
   String s=driver.getWindowHandle();
   System.out.println(s);
+  
+  
+  }
+  
+  
+
+  @Test
+  public void fkdkffvTest() {
+	  
+	String title= driver.getTitle();
+	 
+  
+  System.out.println(title);
+	  
+	
   
   
   }

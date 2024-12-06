@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class FramesTest {
+public class FramespracTest {
 	
 	WebDriver driver;
 	

@@ -71,6 +71,32 @@ public class makemytrippppppppTest {
   }
   
   
+
+  @Test
+  public void F77jsdscuiTest() {
+	  
+	  
+	  System.out.println( driver.getPageSource());
+	
+	  
+	  
+  }
+  
+  
+
+  @Test
+  public void F77uyyyiTest() {
+	  
+	  
+	  System.out.println(driver.getTitle());
+	
+
+	
+	  
+	  
+  }
+  
+  
   
   
   

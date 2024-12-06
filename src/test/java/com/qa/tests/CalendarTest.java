@@ -13,61 +13,57 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 
 public class CalendarTest {
-	
+
 	WebDriver driver;
-	
-  @Test
-  public void fTest() {
-	  
-	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
-	  	  
-	  
-	  	  
-	  	   
-	 
-  }
-  
-  
-  @Test
-  public void fkkTest() {
-	  
-	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
-	  	  
-	  
-	//input[@id='first_date_picker']	  	  
-	  	   
-	 
-  }
-  
-  
-  @Test
+
+	@Test
+	public void fTest() {
+
+		driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
+
+	}
+
+	@Test
+	public void fkkTest() {
+
+		driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
+
+		// input[@id='first_date_picker']
+
+	}
+
+	@Test
   public void fkkr
-  Test() {
+
+	Test() {
 	  
 	  driver.findElement(By.xpath("//input[@id='first_date_picker']")).click();
 	  	  
 	  
-	//input[@id='first_date_picker']	  	  
+	  
+	//input[@id='first_date_picker']	  	
+	  
+	  
+	  
+	  
 	  	   
 	 
   }
-  
-  
-  @BeforeClass
-  public void beforeClass() {
-	  
-	  
-	    driver=new ChromeDriver();	  
-	    driver.manage().window().maximize();
+
+	@BeforeClass
+	public void beforeClass() {
+
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.hyrtutorials.com/p/calendar-practice.html");
-  }
+	}
 
-  @AfterClass
-  public void afterClass() {
-	  driver.close();
-  }
+	@AfterClass
+	public void afterClass() {
+		driver.close();
+	}
 
 }

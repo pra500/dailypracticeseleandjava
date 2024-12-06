@@ -16,6 +16,8 @@ public class NewcccTest {
 	WebDriver driver;
 	
 	
+	
+	
   @Test
   public void fTest() {
 	 String url= driver.getCurrentUrl();

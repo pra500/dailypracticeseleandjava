@@ -1,0 +1,1 @@
+{"uuid":"b4c7d8d8-1c30-435c-bb86-c52c8fa12bc9","name":"com.qa.tests.NsdscTest.setup","children":["861258fd-5d3a-416e-ad5e-9b672d029c55"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1733207591768,"stop":1733207599268}],"afters":[],"start":1733207591767,"stop":1733207599269}
